@@ -1,14 +1,15 @@
 import React, { useState } from "react";
 
 const now = new Date()
-// curr date ignoring the time
-const currDate = new Date(now.getFullYear(), 0, 1)
+// starting date is the first day of the current year
+// ignoring the date time
+const startingDate = new Date(now.getFullYear(), 0, 1)
 
 const initialState = {
     "ce-phoenix":
         { 
             name: "CE-Phoenix", 
-            startDate: currDate,
+            startDate: startingDate,
             people: [
                 "Daniel",
                 "Inge",
@@ -25,7 +26,7 @@ const initialState = {
     "ce-templating":
         { 
             name: "CE-Teamplating", 
-            startDate: currDate,
+            startDate: startingDate,
             people: [
                 "Dileep",
                 "Senthil",

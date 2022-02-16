@@ -21,6 +21,20 @@ const initialState = {
                 "Lavanya",
                 "Yilmaz"
             ]
+        },
+    "ce-templating":
+        { 
+            name: "CE-Teamplating", 
+            startDate: currDate,
+            people: [
+                "Dileep",
+                "Senthil",
+                "Preeti",
+                "Jinish",
+                "Lakshmi",
+                "Yilmaz",
+                "Daniel"
+            ]
         }
 }
 

@@ -5,6 +5,39 @@ const now = new Date()
 // ignoring the date time
 const startingDate = new Date(now.getFullYear(), 0, 1)
 
+// name pairs generated with https://commentpicker.com/combination-generator.php
+const phoenixDutyList = [
+    "Inge & Kanchan",
+    "Blanca & Milan",
+    "Daniel & Pasko",
+    "Inge & Milan",
+    "Kanchan & Blanca",
+    "Daniel & Pedro",
+    "Inge & Blanca",
+    "Pasko & Blanca",
+    "Daniel & Milan",
+    "Pasko & Joao",
+    "Inge & Pedro",
+    "Pasko & Kanchan",
+    "Blanca & Pedro",
+    "Milan & Joao",
+    "Pasko & Pedro",
+    "Blanca & Joao",
+    "Kanchan & Pedro",
+    "Daniel & Inge",
+    "Milan & Pedro",
+    "Inge & Joao",
+    "Daniel & Blanca",
+    "Pedro & Joao",
+    "Kanchan & Milan",
+    "Daniel & Joao",
+    "Pasko & Milan",
+    "Kanchan & Joao",
+    "Inge & Pasko",
+    "Daniel & Kanchan"
+];
+
+
 const initialState = {
     "ce-phoenix":
         { 
@@ -19,9 +52,9 @@ const initialState = {
                 "Pedro",
                 "Milan",
                 "Joao",
-                "Lavanya",
-                "Yilmaz"
-            ]
+                "Lavanya"
+            ],
+            dutyList: phoenixDutyList
         },
     "ce-templating":
         { 

@@ -23,8 +23,15 @@ h2 {
   text-align: center;
   display: block;
   line-height:1em;
-  padding-bottom: 1em;
   color: #FB667A;
+}
+
+h3 {
+  font-size:1em; 
+  font-weight: 300;
+  text-align: center;
+  display: block;
+  line-height:1em;
 }
 
 h2 a {
@@ -76,7 +83,9 @@ h2 a {
 	  background-color: #1F2739;
 }
 
-.container td:first-child { color: #FB667A; }
+.red-color { color: #FB667A; }
+
+.first-child-overwritten { color: #A7A1AE !important; }
 
 .container tr:hover {
    background-color: #464A52;
@@ -380,7 +389,7 @@ p {
   width: 80%;
   margin: 0 auto;
   display: table;
-  padding: 0 0 5em 0;
+  padding: 0 0 4em 0;
 }
 
 .mobile-menu {
@@ -430,6 +439,11 @@ transition: all 0.4s ease 0s;
 }
 
 /*Hover state for top level links*/
+
+.mobile-menu-active{
+  background-color:#2891c1 !important;
+}
+
 .mobile-menu li:hover a {
   background-color:#4DC3FA;
 }

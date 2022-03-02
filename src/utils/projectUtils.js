@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 
 export const Loader = () => (
     <div className="container">
@@ -7,6 +7,24 @@ export const Loader = () => (
         </svg>
     </div>
 ); 
+
+export const MainMenu = ({projectName, currentPath}) => {
+    return (
+        <div className="mobile-menu-div-2">
+        <nav className="mobile-menu">
+            <label htmlFor="show-menu" className="show-menu"><span>Menu</span><div className="lines"></div></label>
+            <input type="checkbox" id="show-menu"/>
+            <ul id="menu">
+                <li><Link to="/" >Home</Link></li>
+                <li><Link className={currentPath === 'project' ? 'mobile-menu-active' : ''} to={`/project/${projectName}`}>Presenters List</Link></li>
+                <li><Link className={currentPath === 'dutyList' ? 'mobile-menu-active' : ''} to={`/duty-list/${projectName}`}>Duty List</Link></li>
+                <li><Link className={currentPath === 'people' ? 'mobile-menu-active' : ''} to={`/people/${projectName}`}>Team Members</Link></li>
+            </ul>
+        </nav>
+        </div>
+    );
+    
+}; 
 
 const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
   "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
@@ -39,4 +57,12 @@ export function formatDate(date, separator=' '){
     let year = providedDate.getFullYear();
     
     return `${day}${separator}${month}${separator}${year}`
+}
+
+export function formatDateWithoutYear(date, separator=' '){
+    let providedDate = new Date(date)
+    let day = providedDate.getDate();
+    let month = monthNames[providedDate.getMonth()];
+    
+    return `${day}${separator}${month}`
 }

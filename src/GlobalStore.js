@@ -63,7 +63,6 @@ const initialState = {
             people: [
                 "Dileep",
                 "Senthil",
-                "Preeti",
                 "Jinish",
                 "Lakshmi",
                 "Yilmaz",

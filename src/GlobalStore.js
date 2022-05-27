@@ -37,6 +37,26 @@ const phoenixDutyList = [
     "Daniel & Kanchan"
 ];
 
+// Due to SPR migration Daniel and Pedro were excluded
+// for the time being
+const limitedPhoenixDutyList = [
+    "Milan & Joao",
+    "Blanca & Pasko",
+    "Kanchan & Joao",
+    "Blanca & Inge",
+    "Kanchan & Pasko",
+    "Milan & Inge",
+    "Blanca & Joao",
+    "Kanchan & Milan",
+    "Pasko & Inge",
+    "Blanca & Milan",
+    "Joao & Inge",
+    "Milan & Pasko",
+    "Kanchan & Inge",
+    "Joao & Pasko",
+    "Kanchan & Blanca"
+];
+
 
 const initialState = {
     "ce-phoenix":
@@ -54,7 +74,7 @@ const initialState = {
                 "Joao",
                 "Lavanya"
             ],
-            dutyList: phoenixDutyList
+            dutyList: limitedPhoenixDutyList
         },
     "ce-templating":
         { 
@@ -63,10 +83,11 @@ const initialState = {
             people: [
                 "Dileep",
                 "Senthil",
-                "Jinish",
                 "Lakshmi",
                 "Yilmaz",
-                "Daniel"
+                "Daniel",
+                "Ivan",
+                "Pedro"
             ]
         }
 }

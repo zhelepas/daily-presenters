@@ -109,7 +109,7 @@ export default function DutyListPage() {
                         <thead>
                             <tr>
                                 <th><h1>Date Range</h1></th>
-                                <th><h1>People on Duty</h1></th>
+                                <th><h1>People on Duty + (Backup)</h1></th>
                             </tr>
                         </thead>
                         <tbody>     

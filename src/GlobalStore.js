@@ -38,25 +38,18 @@ const phoenixDutyList = [
 ];
 
 // Due to SPR migration Daniel and Pedro were excluded
-// for the time being
+// for the time being, the list is also distributed
 const limitedPhoenixDutyList = [
-    "Milan & Joao",
-    "Blanca & Pasko",
-    "Kanchan & Joao",
-    "Blanca & Inge",
-    "Kanchan & Pasko",
-    "Milan & Inge",
-    "Blanca & Joao",
-    "Kanchan & Milan",
-    "Pasko & Inge",
-    "Blanca & Milan",
-    "Joao & Inge",
-    "Milan & Pasko",
-    "Kanchan & Inge",
-    "Joao & Pasko",
-    "Kanchan & Blanca"
+    "Pasko & Joao (Blanca)",
+    "Kanchan & Blanca (Inge)",
+    "Inge & Joao (Pasko)",
+    "Pasko & Blanca (Kanchan)",
+    "Kanchan & Milan (Joao)",
+    "Inge & Blanca (Milan)",
+    "Pasko & Milan (Inge)",
+    "Kanchan & Joao (Pasko)",
+    "Inge & Milan (Kanchan)",
 ];
-
 
 const initialState = {
     "ce-phoenix":

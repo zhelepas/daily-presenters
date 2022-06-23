@@ -51,22 +51,24 @@ const limitedPhoenixDutyList = [
     "Inge & Milan (Kanchan)",
 ];
 
+// Due to SPR migration Daniel and Pedro were excluded
+// for the time being
+const limitedPhoenixPresentersList = [
+    "Inge",
+    "Blanca",
+    "Pasko",
+    "Kanchan",
+    "Milan",
+    "Joao",
+    "Lavanya"
+];
+
 const initialState = {
     "ce-phoenix":
         { 
             name: "CE-Phoenix", 
             startDate: startingDate,
-            people: [
-                "Daniel",
-                "Inge",
-                "Blanca",
-                "Pasko",
-                "Kanchan",
-                "Pedro",
-                "Milan",
-                "Joao",
-                "Lavanya"
-            ],
+            people: limitedPhoenixPresentersList,
             dutyList: limitedPhoenixDutyList
         },
     "ce-templating":

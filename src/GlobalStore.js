@@ -80,7 +80,6 @@ const initialState = {
                 "Senthil",
                 "Lakshmi",
                 "Yilmaz",
-                "Daniel",
                 "Ivan",
                 "Pedro"
             ]

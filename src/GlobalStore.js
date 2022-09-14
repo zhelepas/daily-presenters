@@ -61,7 +61,8 @@ const limitedPhoenixPresentersList = [
     "Milan",
     "Joao",
     "Lavanya",
-    "Tiago"
+    "Tiago",
+    "Kiran"
 ];
 
 const initialState = {

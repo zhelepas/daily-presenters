@@ -40,21 +40,23 @@ const phoenixDutyList = [
 // Due to SPR migration Daniel and Pedro were excluded
 // for the time being, the list is also distributed
 const limitedPhoenixDutyList = [
-    "Pasko & Joao (Blanca)",
-    "Kanchan & Blanca (Inge)",
-    "Inge & Joao (Pasko)",
-    "Pasko & Blanca (Kanchan)",
-    "Kanchan & Milan (Joao)",
-    "Inge & Blanca (Milan)",
-    "Pasko & Milan (Inge)",
+    "Blanca & Kiran (Kanchan)",
+    "Kanchan & Milan (Pasko)",
+    "Pasko & Kiran (Joao)",
+    "Blanca & Milan (Kiran)",
+    "Kanchan & Kiran (Blanca)",
+    "Pasko & Milan (Tiago)",
     "Kanchan & Joao (Pasko)",
-    "Inge & Milan (Kanchan)",
+    "Blanca & Tiago (Kanchan)",
+    "Pasko & Joao (Milan)",
+    "Kanchan & Tiago (Blanca)",
+    "Blanca & Joao (Pasko)",
+    "Pasko & Tiago (Kanchan)",
 ];
 
 // Due to SPR migration Daniel and Pedro were excluded
 // for the time being
 const limitedPhoenixPresentersList = [
-    "Inge",
     "Blanca",
     "Pasko",
     "Kanchan",

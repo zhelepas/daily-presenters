@@ -7,64 +7,29 @@ const startingDate = new Date(now.getFullYear(), 0, 1)
 
 // name pairs generated with https://commentpicker.com/combination-generator.php
 const phoenixDutyList = [
-    "Kanchan & Joao",
-    "Pasko & Blanca",
-    "Milan & Pedro",
-    "Daniel & Pasko",
-    "Inge & Milan",
-    "Pasko & Joao",
-    "Kanchan & Blanca",
-    "Daniel & Pedro",
-    "Inge & Blanca",
-    "Daniel & Milan",
-    "Inge & Pedro",
-    "Pasko & Kanchan",
-    "Blanca & Pedro",
-    "Milan & Joao",
-    "Inge & Pasko",
-    "Kanchan & Pedro",
-    "Daniel & Inge",
-    "Blanca & Milan",
-    "Inge & Joao",
-    "Daniel & Blanca",
-    "Pedro & Joao",
-    "Kanchan & Milan",
-    "Daniel & Joao",
-    "Pasko & Milan",
-    "Blanca & Joao",
-    "Inge & Kanchan",
-    "Pasko & Pedro",
-    "Daniel & Kanchan"
-];
-
-// Due to SPR migration Daniel and Pedro were excluded
-// for the time being, the list is also distributed
-const limitedPhoenixDutyList = [
-    "Blanca & Kiran (Kanchan)",
-    "Kanchan & Milan (Pasko)",
-    "Pasko & Kiran (Joao)",
-    "Blanca & Milan (Kiran)",
-    "Kanchan & Kiran (Blanca)",
-    "Pasko & Milan (Tiago)",
+    "Blanca & Joao (Kanchan)",
+    "Pasko & Tiago (Blanca)",
+    "Daniel & Joao (Tiago)",
+    "Pasko & Kiran (Daniel)",
+    "Kanchan & Tiago (Kiran)",
+    "Blanca & Kiran (Joao)",
     "Kanchan & Joao (Pasko)",
     "Blanca & Tiago (Kanchan)",
-    "Pasko & Joao (Milan)",
-    "Kanchan & Tiago (Blanca)",
-    "Blanca & Joao (Pasko)",
-    "Pasko & Tiago (Kanchan)",
+    "Kanchan & Kiran (Daniel)",
+    "Daniel & Tiago (Pasko)",
+    "Pasko & Joao (Tiago)",
+    "Daniel & Kiran (Blanca)"
 ];
 
-// Due to SPR migration Daniel and Pedro were excluded
-// for the time being
-const limitedPhoenixPresentersList = [
+const phoenixPresentersList = [
     "Blanca",
     "Pasko",
     "Kanchan",
-    "Milan",
     "Joao",
     "Lavanya",
     "Tiago",
-    "Kiran"
+    "Kiran",
+    "Daniel"
 ];
 
 const initialState = {
@@ -72,8 +37,8 @@ const initialState = {
         { 
             name: "CE-Phoenix", 
             startDate: startingDate,
-            people: limitedPhoenixPresentersList,
-            dutyList: limitedPhoenixDutyList
+            people: phoenixPresentersList,
+            dutyList: phoenixDutyList
         },
     "ce-templating":
         { 

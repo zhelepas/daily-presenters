@@ -29,7 +29,8 @@ const phoenixPresentersList = [
     "Lavanya",
     "Tiago",
     "Kiran",
-    "Daniel"
+    "Daniel",
+    "Ram"
 ];
 
 const initialState = {

@@ -51,7 +51,8 @@ const initialState = {
                 "Lakshmi",
                 "Yilmaz",
                 "Ivan",
-                "Pedro"
+                "Jitendra",
+                "Bala"
             ]
         }
 }

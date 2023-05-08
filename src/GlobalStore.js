@@ -7,18 +7,21 @@ const startingDate = new Date(now.getFullYear(), 0, 1)
 
 // name pairs generated with https://commentpicker.com/combination-generator.php
 const phoenixDutyList = [
-    "Blanca & Joao (Kanchan)",
-    "Pasko & Tiago (Blanca)",
-    "Daniel & Joao (Tiago)",
-    "Pasko & Kiran (Daniel)",
-    "Kanchan & Tiago (Kiran)",
-    "Blanca & Kiran (Joao)",
-    "Kanchan & Joao (Pasko)",
+    "Tiago & Daniel (Pasko)",
+    "Blanca & Joao (Tiago)",
+    "Kanchan & Tiago (Daniel)",
+    "Pasko & Daniel (Blanca)",
+    "Kanchan & Joao (Daniel)",
+    "Pasko & Tiago (Joao)",
+    "Kanchan & Daniel (Pasko)",
+    "Joao & Tiago (Kanchan)",
+    "Blanca & Pasko (Joao)",
+    "Joao & Daniel (Tiago)",
     "Blanca & Tiago (Kanchan)",
-    "Kanchan & Kiran (Daniel)",
-    "Daniel & Tiago (Pasko)",
-    "Pasko & Joao (Tiago)",
-    "Daniel & Kiran (Blanca)"
+    "Pasko & Kanchan (Blanca)",
+    "Blanca & Daniel (Pasko)",
+    "Pasko & Joao (Daniel)",
+    "Blanca & Kanchan (Tiago)"
 ];
 
 const phoenixPresentersList = [

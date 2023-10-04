@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
-const now = new Date()
+const now = new Date();
 // starting date is the first day of the current year
 // ignoring the date time
-const startingDate = new Date(now.getFullYear(), 0, 1)
+const startingDate = new Date(2022, 0, 1);
 
 // name pairs generated with https://commentpicker.com/combination-generator.php
 const phoenixDutyList = [
@@ -46,7 +46,7 @@ const initialState = {
         },
     "ce-templating":
         { 
-            name: "CE-Teamplating", 
+            name: "CE-Templating", 
             startDate: startingDate,
             people: [
                 "Dileep",
@@ -57,7 +57,24 @@ const initialState = {
                 "Jitendra",
                 "Bala"
             ]
-        }
+        },
+    "ce-test-automation":
+        { 
+            name: "CE-Test-Automation", 
+            startDate: startingDate,
+            dutyList: [
+                "Jashmine & Geovanna",
+                "Geovanna & David",
+                "David & Deysi",
+                "Deysi & Ram ",
+                "Ram & Lavanya ",
+                "Lavanya & Jashmine",
+                "Geovanna & Sofia",
+                "Ram & Jashmine",
+                "Sofia & David",
+                "Deysi & Lavanya"
+            ]
+        }    
 }
 
 export const Context = React.createContext();

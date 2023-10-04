@@ -23,10 +23,13 @@ export default function PresentersPage() {
             // fetch people
             const people = currProject.people;
 
+            let presentersList = [];
+            
             // in case there are no people
-            if(people.length === 0) {
+            if(people === undefined || people.length === 0) {
                 setLoading(false);
                 setValidProject(isValid);
+                setPresenters(presentersList);
                 return;
             }
             
@@ -36,8 +39,6 @@ export default function PresentersPage() {
             let currDate = new Date(now.getFullYear(), now.getMonth(), now.getDate() - 1);
 
             const currPresenterIndex = getCurrentPresenterIndex(currProject.startDate, todaysDate, people)
-
-            let presentersList = [];
 
             // first cycle
             for(let j = currPresenterIndex; j < people.length; j++) {

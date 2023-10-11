@@ -54,8 +54,7 @@ const initialState = {
                 "Lakshmi",
                 "Yilmaz",
                 "Ivan",
-                "Jitendra",
-                "Bala"
+                "Jitendra"
             ]
         },
     "ce-test-automation":

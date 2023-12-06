@@ -7,26 +7,20 @@ const startingDate = new Date(2023, 0, 1);
 
 // name pairs generated with https://commentpicker.com/combination-generator.php
 const phoenixDutyList = [
-    "Tiago & Daniel (Pasko)",
-    "Maher & Joao (Tiago)",
+    "Maher & Kanchan (Tiago)",
+    "Joao & Daniel (Kanchan)",
+    "Maher & Daniel (Joao)",
     "Kanchan & Tiago (Daniel)",
-    "Pasko & Daniel (Maher)",
-    "Kanchan & Joao (Daniel)",
-    "Pasko & Tiago (Joao)",
-    "Kanchan & Daniel (Pasko)",
-    "Joao & Tiago (Kanchan)",
-    "Maher & Pasko (Joao)",
-    "Joao & Daniel (Tiago)",
-    "Maher & Tiago (Kanchan)",
-    "Pasko & Kanchan (Maher)",
-    "Maher & Daniel (Pasko)",
-    "Pasko & Joao (Daniel)",
-    "Maher & Kanchan (Tiago)"
+    "Kanchan & Joao (Maher)",
+    "Maher & Tiago (Joao)",
+    "Tiago & Daniel (Kanchan)",
+    "Maher & Joao (Tiago)",
+    "Kanchan & Daniel (Maher)",
+    "Joao & Tiago (Daniel)"
 ];
 
 const phoenixPresentersList = [
     "Maher",
-    "Pasko",
     "Kanchan",
     "Joao",
     "Lavanya",

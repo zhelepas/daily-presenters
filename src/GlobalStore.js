@@ -30,6 +30,15 @@ const phoenixPresentersList = [
     "Ram"
 ];
 
+const goldDiggersPresentersList = [
+    "Hugo",
+    "Pasko",
+    "Sandra",
+    "Luís",
+    "Geovana",
+    "Andreas"
+];
+
 const initialState = {
     "ce-phoenix":
         { 
@@ -67,7 +76,13 @@ const initialState = {
                 "Sofia & David",
                 "Deysi & Lavanya"
             ]
-        }    
+        },
+    "ce-gold-diggers":
+    { 
+        name: "CE-Gold-Diggers", 
+        startDate: startingDate,
+        people: goldDiggersPresentersList
+    },  
 }
 
 export const Context = React.createContext();

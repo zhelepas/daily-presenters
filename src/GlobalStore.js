@@ -24,19 +24,18 @@ const phoenixPresentersList = [
     "Kanchan",
     "Joao",
     "Lavanya",
-    "Tiago",
     "Kiran",
     "Daniel",
     "Ram"
 ];
 
 const goldDiggersPresentersList = [
-    "Hugo",
     "Pasko",
     "Sandra",
     "Luís",
     "Geovana",
-    "Andreas"
+    "Sebastian",
+    "Joshua",
 ];
 
 const initialState = {

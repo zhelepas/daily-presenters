@@ -82,7 +82,7 @@ const initialState = {
         people: goldDiggersPresentersList
     },  
     "run-and-sustain-backend":
-        { 
+    { 
             name: "Run and Sustain Backend Team", 
             startDate: startingDate,
             people: [
@@ -93,6 +93,23 @@ const initialState = {
                 "Pasko",
                 "Elena",
                 "Bonita"
+            ]
+    },
+    "run-and-sustain-frontend":
+    { 
+            name: "Run and Sustain Frontend Team", 
+            startDate: startingDate,
+            people: [
+                "Senthil",
+                "Shodan",
+                "Dileep",
+                "Vasco",
+                "Pedro",
+                "Daniel",
+                "Elena",
+                "Lakshmi",
+                "Dimpal",
+                "Uilian"
             ]
     },
 }

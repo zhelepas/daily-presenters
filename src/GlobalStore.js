@@ -90,7 +90,9 @@ const initialState = {
                 "Joao",
                 "Kanchan",
                 "Lavanya",
-                "Pasko"
+                "Pasko",
+                "Elena",
+                "Bonita"
             ]
     },
 }

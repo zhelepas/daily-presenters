@@ -81,6 +81,18 @@ const initialState = {
         startDate: startingDate,
         people: goldDiggersPresentersList
     },  
+    "run-and-sustain-backend":
+        { 
+            name: "Run and Sustain Backend Team", 
+            startDate: startingDate,
+            people: [
+                "Clarissa",
+                "Joao",
+                "Kanchan",
+                "Lavanya",
+                "Pasko"
+            ]
+    },
 }
 
 export const Context = React.createContext();

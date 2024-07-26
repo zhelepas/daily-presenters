@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 
-const now = new Date();
 // starting date is the first day of the current year
 // ignoring the date time
-const startingDate = new Date(2023, 0, 1);
+const startingDate = new Date(2024, 0, 1);
 
 // name pairs generated with https://commentpicker.com/combination-generator.php
 const phoenixDutyList = [

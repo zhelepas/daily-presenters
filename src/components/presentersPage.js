@@ -18,7 +18,7 @@ export default function PresentersPage() {
     const createPresenters = async () => {
         const currProject = globalState[projectName.toLowerCase()];
         const isValid = currProject !== undefined
-
+        
         if(isValid) {
             // fetch people
             const people = currProject.people;

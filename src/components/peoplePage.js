@@ -27,6 +27,19 @@ export default function PeoplePage() {
         setLoading(false)
     }
 
+    let personExists = (personName) => {
+      return true;
+    }
+
+    let onCheckboxPressed = (personName) => {
+      var index = people.indexOf(personName);
+      if (index !== -1) {
+          people.splice(index, 1);
+      }
+
+      setPeople(people);
+    }
+
     useEffect(() => {
         fetchPeople()
       }, []);
@@ -41,11 +54,17 @@ export default function PeoplePage() {
                 <div>
                     <h2>Project: <strong>{projectName.toUpperCase()}</strong></h2>
                     <h3>List of all of the team members in the selected project</h3>
+                    <h3>You can use the <strong>Available Checkbox</strong> to remove some people just for the <strong>CURRENT</strong> session</h3>
                     <table className="container">
                         <tbody>     
                             {people.map((person, index) => (
                                     <tr key={index}>
                                         <td className='first-child-overwritten'>{person}</td>
+                                        <td>
+                                          <label>
+                                            Available <input type="checkbox" defaultChecked={personExists(person)} onChange={() => onCheckboxPressed(person)}   />
+                                          </label>
+                                        </td>
                                     </tr>
                                 )
                                     )

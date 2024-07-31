@@ -86,7 +86,6 @@ const initialState = {
             startDate: startingDate,
             people: [
                 "Clarissa",
-                "Joao",
                 "Kanchan",
                 "Lavanya",
                 "Pasko",

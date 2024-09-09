@@ -98,7 +98,6 @@ const initialState = {
             name: "Run and Sustain Frontend Team", 
             startDate: startingDate,
             people: [
-                "Senthil",
                 "Shodan",
                 "Dileep",
                 "Vasco",

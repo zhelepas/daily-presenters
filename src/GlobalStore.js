@@ -28,15 +28,6 @@ const phoenixPresentersList = [
     "Ram"
 ];
 
-const goldDiggersPresentersList = [
-    "Pasko",
-    "Sandra",
-    "Luís",
-    "Geovana",
-    "Sebastian",
-    "Joshua",
-];
-
 const initialState = {
     "ce-phoenix":
         { 
@@ -74,11 +65,19 @@ const initialState = {
                 "Deysi & Lavanya"
             ]
         },
-    "ce-gold-diggers":
+    "dsv-redesign":
     { 
-        name: "CE-Gold-Diggers", 
+        name: "DSV Redesign", 
         startDate: startingDate,
-        people: goldDiggersPresentersList
+        people: [
+            "Sandra",
+            "Marta",
+            "Joao",
+            "Sara",
+            "Benjamin",
+            "Roland",
+            "Daniel"
+        ]
     },  
     "run-and-sustain-backend":
     { 

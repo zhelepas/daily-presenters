@@ -88,7 +88,6 @@ const initialState = {
                 "Kanchan",
                 "Lavanya",
                 "Pasko",
-                "Elena",
                 "Bonita"
             ]
     },

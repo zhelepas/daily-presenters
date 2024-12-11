@@ -106,6 +106,23 @@ const initialState = {
                 "Dimpal"
             ]
     },
+    "run-and-sustain-dev":
+    { 
+            name: "Run and Sustain Dev Team", 
+            startDate: startingDate,
+            people: [
+                "Dileep",
+                "Vasco",
+                "Pedro",
+                "Dimpal",
+                "Clarissa",
+                "Kanchan",
+                "Lavanya",
+                "Pasko",
+                "Bonita",
+                "Ivo"
+            ]
+    },
 }
 
 export const Context = React.createContext();

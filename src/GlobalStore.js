@@ -128,15 +128,15 @@ const initialState = {
             name: "MFH Dev Team", 
             startDate: startingDate,
             people: [
-                "Gnana",
+                "Arthur",
                 "Pedro",
-                "Raphael",
                 "Marnie",
-                "Tiago",
                 "Pasko",
                 "Stefan",
+                "Raphael",
+                "Gnana",
                 "Margarida",
-                "Arthur"
+                "Tiago",
             ]
     },
 }

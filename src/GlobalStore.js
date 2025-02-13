@@ -123,6 +123,22 @@ const initialState = {
                 "Ivo"
             ]
     },
+    "mfh-dev":
+    { 
+            name: "MFH Dev Team", 
+            startDate: startingDate,
+            people: [
+                "Gnana",
+                "Pedro",
+                "Raphael",
+                "Marnie",
+                "Tiago",
+                "Pasko",
+                "Stefan",
+                "Margarida",
+                "Arthur"
+            ]
+    },
 }
 
 export const Context = React.createContext();

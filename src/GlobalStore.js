@@ -139,6 +139,19 @@ const initialState = {
                 "Tiago",
             ]
     },
+    "ces-team": {
+        name: "CES Dev Team", 
+        startDate: startingDate,
+        people: [
+            "Dileep",
+            "Vijay",
+            "Garima",
+            "Aman",
+            "Mariana",
+            "Payal",
+            "Sravani"
+        ]
+    }
 }
 
 export const Context = React.createContext();

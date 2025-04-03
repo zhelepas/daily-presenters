@@ -146,7 +146,6 @@ const initialState = {
             "Dileep",
             "Vijay",
             "Garima",
-            "Aman",
             "Mariana",
             "Payal",
             "Sravani"

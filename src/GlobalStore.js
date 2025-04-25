@@ -148,7 +148,8 @@ const initialState = {
             "Garima",
             "Mariana",
             "Payal",
-            "Sravani"
+            "Sravani",
+            "Januka"
         ]
     }
 }

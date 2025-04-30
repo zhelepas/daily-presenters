@@ -133,7 +133,7 @@ const initialState = {
                 "Marnie",
                 "Pasko",
                 "Stefan",
-                "Raphael",
+                "Andrei",
                 "Gnana",
                 "Margarida",
                 "Tiago",

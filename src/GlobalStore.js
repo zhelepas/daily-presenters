@@ -129,7 +129,7 @@ const initialState = {
             startDate: startingDate,
             people: [
                 "Arthur",
-                "Pedro",
+                "Bruno",
                 "Marnie",
                 "Pasko",
                 "Stefan",

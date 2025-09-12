@@ -131,10 +131,8 @@ const initialState = {
                 "Arthur",
                 "Bruno",
                 "Marnie",
-                "Pasko",
                 "Stefan",
                 "João",
-                "Gnana",
                 "Margarida",
                 "Tiago",
             ]

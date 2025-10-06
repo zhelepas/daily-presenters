@@ -143,13 +143,13 @@ const initialState = {
         name: "CES Dev Team", 
         startDate: startingDate,
         people: [
-            "Dileep",
+            "Torsten",
             "Vijay",
             "Garima",
             "Mariana",
             "Payal",
             "Sravani",
-            "Januka",
+            "Filipa",
             "Praveen",
             "Navneet"
         ]

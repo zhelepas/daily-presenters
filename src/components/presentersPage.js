@@ -105,7 +105,7 @@ export default function PresentersPage() {
         validProject ?
             presenters && presenters.length ?
                 <div>
-                    <h2>Project: <strong>{projectName.toUpperCase()}</strong></h2>
+                    <h2>Project: <strong>{projectName}</strong></h2>
                     <h3>List of presenters that should share the screen during the daily meeting</h3>
                     <table className="container">
                         <thead>

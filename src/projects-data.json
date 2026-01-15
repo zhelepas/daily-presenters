@@ -1,0 +1,58 @@
+{
+	"startingDate": "2026-01-01",
+	"teams": {
+		"dsv-redesign": {
+			"name": "DSV Redesign",
+			"people": [
+				"Sandra",
+				"Marta",
+				"Joao",
+				"Sara",
+				"Benjamin",
+				"Roland",
+				"Daniel"
+			]
+		},
+		"mfh-dev": {
+			"name": "MFH Dev Team",
+			"people": [
+				"Arthur",
+				"Bruno S.",
+				"Marnie",
+				"Stefan",
+				"João",
+				"Margarida",
+				"Tiago",
+				"Bruno M. F."
+			]
+		},
+		"ces-team": {
+			"name": "CES Dev Team",
+			"people": [
+				"Torsten",
+				"Vijay",
+				"Garima",
+				"Mariana",
+				"Payal",
+				"Sravani",
+				"Filipa",
+				"Praveen",
+				"Navneet"
+			]
+		},
+		"erwin": {
+			"name": "erWin Team",
+			"people": [
+				"Tiago",
+				"Ricardo",
+				"Andrei",
+				"Felipe",
+				"Dilara",
+				"Vanessa",
+				"Chaitra",
+				"Gnana",
+				"Philipp"
+			]
+		}
+	}
+}

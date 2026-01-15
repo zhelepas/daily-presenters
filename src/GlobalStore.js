@@ -12,8 +12,7 @@ const formattedInitialState = () => {
         processedTeams[key] = {
             ...teams[key],
             startDate: dateObj, // Injects the actual Date object
-            people: teams[key].people || [],
-            dutyList: teams[key].dutyList || []
+            people: teams[key].people || []
         };
     });
 

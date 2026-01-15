@@ -17,7 +17,6 @@ export const MainMenu = ({projectName, currentPath}) => {
             <ul id="menu">
                 <li><Link to="/" >Home</Link></li>
                 <li><Link className={currentPath === 'project' ? 'mobile-menu-active' : ''} to={`/project/${projectName}`}>Presenters List</Link></li>
-                <li><Link className={currentPath === 'dutyList' ? 'mobile-menu-active' : ''} to={`/duty-list/${projectName}`}>Duty List</Link></li>
                 <li><Link className={currentPath === 'people' ? 'mobile-menu-active' : ''} to={`/people/${projectName}`}>Team Members</Link></li>
             </ul>
         </nav>
